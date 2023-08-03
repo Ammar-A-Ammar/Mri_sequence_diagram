@@ -1,32 +1,45 @@
 {
-    "TE": [
-        {
-            "TE1": {
-                "duration": 2,
-                "distance": 5,
-                "degree": 90,
-                "sign": "positive"
-            },
-            "TE2": {
-                "duration": 2.5,
-                "distance": 6,
-                "degree": 120,
-                "sign": "negative"
-            },
-            "TE3": {
-                "duration": 3,
-                "distance": 7,
-                "degree": 150,
-                "sign": "positive"
-            }
-        }
-        
-    ],
     "TR": 10,
+    "TE": 10,
     "d_ramp": 0.1,
     "d_pulse": 1,
     "d_encoding": 1,
     "duration": 2,
     "alternate": 1,
-    "flip_angle": 90
+    "flip_angle": 90,
+    "RF_1": {
+        "duration": 1,
+        "distance": 0.5,
+        "degree": 90,
+        "sign": 1
+    },
+    "RF_2": {
+        "duration": 2,
+        "distance": 1.0,
+        "degree": 180,
+        "sign": -1
+    },
+    "RF_3": {
+        "duration": 1.5,
+        "distance": 0.8,
+        "degree": 45,
+        "sign": 1
+    },
+    "gradient_x_1": {
+        "duration": 1,
+        "distance": 0.8,
+        "sign": -1,
+        "axis": "x"
+    },
+    "gradient_y_1": {
+        "duration": 0.5,
+        "distance": 0.2,
+        "sign": 1,
+        "axis": "y"
+    },
+    "readout_1": {
+        "duration": 1.5,
+        "distance": 0.6,
+        "sign": -1
+    }
 }
