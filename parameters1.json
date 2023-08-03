@@ -1,0 +1,11 @@
+{
+    "Nx": 256,
+    "Ny": 256,
+    "fov": 220e-3,
+    "flip_angle": 90,
+    "rf_duration": 2e-3,
+    "slice_thickness": 5e-3,
+    "apodization": 0.5,
+    "time_bw_product": 4,
+    "gx_flat_time": 6.4e-3
+}

@@ -7,6 +7,10 @@
     "duration": 2,
     "alternate": 1,
     "flip_angle": 90,
+
+
+
+
     "RF_1": {
         "duration": 1,
         "distance": 0.5,
