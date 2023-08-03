@@ -1,0 +1,32 @@
+{
+    "TE": [
+        {
+            "TE1": {
+                "duration": 2,
+                "distance": 5,
+                "degree": 90,
+                "sign": "positive"
+            },
+            "TE2": {
+                "duration": 2.5,
+                "distance": 6,
+                "degree": 120,
+                "sign": "negative"
+            },
+            "TE3": {
+                "duration": 3,
+                "distance": 7,
+                "degree": 150,
+                "sign": "positive"
+            }
+        }
+        
+    ],
+    "TR": 10,
+    "d_ramp": 0.1,
+    "d_pulse": 1,
+    "d_encoding": 1,
+    "duration": 2,
+    "alternate": 1,
+    "flip_angle": 90
+}
