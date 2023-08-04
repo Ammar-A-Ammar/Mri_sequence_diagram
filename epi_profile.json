@@ -1,0 +1,59 @@
+{
+    "TR": 15,
+    "TE": 3,
+    "RF": [
+        {
+            "Time_start": 0,
+            "Duration": 0.8,
+            "FA": 90,
+            "Sign": "+"
+        },
+        {
+            "Time_start": 5,
+            "Duration": 1.4,
+            "FA": 180,
+            "Sign": "-"
+        },
+        {
+            "Time_start": 15,
+            "Duration": 3,
+            "FA": 90,
+            "Sign": "+"
+        }
+    ],
+    "Gradient": [
+        {
+            "Time_start": 0,
+            "Duration": 0.2,
+            "Axis": "y",
+            "Amp": 0.5
+        },
+        {
+            "Time_start": 15,
+            "Duration": 0.2,
+            "Axis": "y",
+            "Amp": 0.5
+        },
+        {
+            "Time_start": 9,
+            "Duration": 1,
+            "Axis": "x",
+            "Amp": 0.5
+        }
+    ],
+    "Multi_gradient": [
+        {
+            "Time_start": 2,
+            "d_encoding": 1,
+            "d_ramp": 0.1,
+            "Amp": 1,
+            "Axis": "y"
+        }
+    ],
+    "Readout": {
+        "d_readout": 2,
+        "d_ramp": 0.1,
+        "d_encoding": 1,
+        "area_factor": -0.2
+    }
+}
