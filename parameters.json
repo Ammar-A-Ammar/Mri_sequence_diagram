@@ -1,49 +1,59 @@
 {
-    "TR": 10,
-    "TE": 10,
-    "d_ramp": 0.1,
-    "d_pulse": 1,
-    "d_encoding": 1,
-    "duration": 2,
-    "alternate": 1,
-    "flip_angle": 90,
-
-
-
-
-    "RF_1": {
-        "duration": 1,
-        "distance": 0.5,
-        "degree": 90,
-        "sign": 1
-    },
-    "RF_2": {
-        "duration": 2,
-        "distance": 1.0,
-        "degree": 180,
-        "sign": -1
-    },
-    "RF_3": {
-        "duration": 1.5,
-        "distance": 0.8,
-        "degree": 45,
-        "sign": 1
-    },
-    "gradient_x_1": {
-        "duration": 1,
-        "distance": 0.8,
-        "sign": -1,
-        "axis": "x"
-    },
-    "gradient_y_1": {
-        "duration": 0.5,
-        "distance": 0.2,
-        "sign": 1,
-        "axis": "y"
-    },
-    "readout_1": {
-        "duration": 1.5,
-        "distance": 0.6,
-        "sign": -1
+    "TR": 15,
+    "TE": 3,
+    "RF": [
+        {
+            "Time_start": 0,
+            "Duration": 0.8,
+            "FA": 90,
+            "Sign": "+"
+        },
+        {
+            "Time_start": 5,
+            "Duration": 1.4,
+            "FA": 180,
+            "Sign": "-"
+        },
+        {
+            "Time_start": 15,
+            "Duration": 3,
+            "FA": 90,
+            "Sign": "+"
+        }
+    ],
+    "Gradient": [
+        {
+            "Time_start": 0,
+            "Duration": 0.2,
+            "Axis": "y",
+            "Amp": 0.5
+        },
+        {
+            "Time_start": 15,
+            "Duration": 0.2,
+            "Axis": "y",
+            "Amp": 0.5
+        },
+        {
+            "Time_start": 9,
+            "Duration": 1,
+            "Axis": "x",
+            "Amp": 0.5
+        }
+    ],
+    "Multi_gradient": [
+        {
+            "Time_start": 2,
+            "d_encoding": 1,
+            "d_ramp": 0.1,
+            "Amp": 1,
+            "Axis": "y"
+        }
+    ],
+    "Readout": {
+        "d_readout": 2,
+        "d_ramp": 0.1,
+        "d_encoding": 1,
+        "area_factor": -0.2
     }
 }
