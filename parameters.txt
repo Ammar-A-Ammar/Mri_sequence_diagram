@@ -1,8 +1,0 @@
-TE=1
-TR=10
-d_ramp=0.1
-d_pulse=1
-d_encoding=1
-duration=2
-alternate=no
-flip_angle=90
