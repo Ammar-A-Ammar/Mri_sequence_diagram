@@ -1,0 +1,40 @@
+{
+    "TR": 15,
+    "TE": 5,
+    "RF": [
+        {
+            "Time": 0,
+            "Duration": 0.8,
+            "FA": 90,
+            "Sign": "+"
+        },
+        {
+            "Time": 5,
+            "Duration": 1.4,
+            "FA": 180,
+            "Sign": "-"
+        },
+        {
+            "Time": 15,
+            "Duration": 3,
+            "FA": 90,
+            "Sign": "+"
+        }
+    ],
+    "Gradient": [
+    ],
+    "Multi_gradient": [
+        {
+            "Time": 2,
+            "Amp": 1,
+            "Axis": "y",
+            "Sign": "+"
+        }
+    ],
+    "Readout": {
+        "d_readout": 2,
+        "d_ramp": 0.1,
+        "d_encoding": 1,
+        "area_factor": -0.2
+    }
+}
